@@ -26,7 +26,7 @@ export default function DetailedProduct() {
           <h1>{product.name}</h1>
           <p>{product.description}</p>
           <p>{product.price}</p>
-          <img src={product.image_url} />
+          <img src={product.image_url} alt={product.name} />
         </div>
       ) : (
         <p>Loading...</p>
