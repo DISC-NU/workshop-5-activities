@@ -13,6 +13,7 @@ function App() {
       price: 8.99,
       image_url:
         "https://hpxezonhbbsjcymbdafz.supabase.co/storage/v1/object/public/disc-product-images/product-images/1730133510983-n58q2c.jpeg",
+      description: "A delicious milk tea with boba",
     },
     {
       id: 2,
@@ -20,6 +21,7 @@ function App() {
       price: 8.99,
       image_url:
         "https://hpxezonhbbsjcymbdafz.supabase.co/storage/v1/object/public/disc-product-images/product-images/1730133510983-n58q2c.jpeg",
+      description: "A delicious milk tea with boba",
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ function App() {
       price: 8.99,
       image_url:
         "https://hpxezonhbbsjcymbdafz.supabase.co/storage/v1/object/public/disc-product-images/product-images/1730133510983-n58q2c.jpeg",
+      description: "A delicious milk tea with boba",
     },
     {
       id: 4,
@@ -34,6 +37,7 @@ function App() {
       price: 8.99,
       image_url:
         "https://hpxezonhbbsjcymbdafz.supabase.co/storage/v1/object/public/disc-product-images/product-images/1730133510983-n58q2c.jpeg",
+      description: "A delicious milk tea with boba",
     },
   ];
 
@@ -46,6 +50,7 @@ function App() {
             <img src={product.image_url} alt={product.name} />
             <h3>{product.name}</h3>
             <p>${product.price}</p>
+            <p>{product.description}</p>
           </div>
         ))}
       </div>
